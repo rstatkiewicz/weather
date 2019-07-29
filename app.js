@@ -21,6 +21,7 @@ window.addEventListener('load', () => {
                     const { temperature, summary } = data.currently;
                     //SET DOM Elements from the API
                     temperatureDegree.textContent = temperature;
+                    temperatureDescription.textContent = summary;
                 });
         });
     }
